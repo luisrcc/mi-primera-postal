@@ -1,0 +1,72 @@
+body {
+	background: gray;
+	font-size: 18px;
+	font-family: 'Lobster', cursive;
+
+}
+.Postal	{
+	background: white;
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 15px;
+}
+
+.Postal img {
+	max-width: 60px;
+	float: right;
+}
+
+.cuerpo-postal{
+	overflow: hidden;
+}
+
+input {
+	font-size: 18px;
+}
+.Postal h1 {
+	margin: 0;
+}
+.izquierda {
+	float: left;
+	width: 50%;
+}
+.derecha {
+	margin-top: 40px;
+	margin-left:auto;
+	float: right;
+	width: 50%;
+}
+.derecha input {
+	display: block;
+}
+h1 {
+	font-size: 35px;
+}
+.pie-postal {
+	padding: 10px;
+	text-align: center;
+}
+
+.pie-postal input [type=submit]{
+	border: none;
+	border-bottom: 1px solid gray;		
+}
+
+.cuerpo-postal input[type=text]{
+
+	border: none;
+	border-bottom: 1px solid gray;
+	font-family: 'Lobster', cursive;
+	width: 240px; 
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
